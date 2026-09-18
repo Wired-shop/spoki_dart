@@ -1,0 +1,15 @@
+name: spoki_dart
+description: Client Dart non ufficiale per le API REST di Spoki — account, credito, template e invio messaggi. Predisposto per più canali, al momento implementato solo WhatsApp.
+version: 0.1.0
+# repository: https://github.com/my_org/spoki_dart
+
+environment:
+  sdk: ^3.4.3
+
+# Add regular dependencies here.
+dependencies:
+  dio: ^5.4.3+1
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0

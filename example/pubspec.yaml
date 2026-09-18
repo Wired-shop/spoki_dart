@@ -1,0 +1,21 @@
+name: spoki_dart_example
+description: App Flutter minimale per testare il pacchetto spoki_dart.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.4.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  spoki_dart:
+    path: '../'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
